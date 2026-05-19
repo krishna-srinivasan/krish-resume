@@ -1,0 +1,302 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title> portfolio </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="webdev.webp">
+    <script defer src="coolie.js"> </script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+		<link href="style.css" rel="stylesheet"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+<canvas id="snowCanvas"></canvas>
+<canvas id="bgCanvas"></canvas>
+<div id ="abo">
+  <div class="one">
+    <nav class="navbar">
+        <h1> Portfolio</h1>
+        <div class="navbar-links">
+         <a href="#scale"  class="navbar-link"> Skills </a>
+         <a href="#props"  class="navbar-link"> Projects </a>
+         <a href="#eduuu"  class="navbar-link"> Education </a>
+         <a href="#cake"   class="navbar-link"> Certifications </a>
+         <a href="#contact"  class="navbar-link"> ContactUs </a>
+        </div>
+       <div class="navbar-menu-toggle" onclick="showbbar();">
+          <i class="fa-solid fa-bars" style ="color: whitesmoke" class="xmark"> </i>
+      </div>
+    </nav>
+
+         <!--  side nav bar   --> 
+
+      <div class="side-navbar">
+        <p style ="text-align: right;" class ="xxmark" onclick="hidebbar();">
+          <i class="fa-solid fa-circle-xmark"> </i>
+        </p>
+      <div class="side-navbar-links">
+      <p  class="side-navbar-link"> <a href="#scale" > Skills </a></p>  
+      <p  class="side-navbar-link"> <a href="#props" > projects </a></p>    
+      <p  class="side-navbar-link"> <a href="#eduuu" > Education </a></p>    
+      <p class="side-navbar-link"> <a href="#cake" > Certifications </a></p>    
+      <p  class="side-navbar-link"> <a href="#contact" > ContactUs </a></p>  
+      </div>
+      </div>
+      <div class="image">
+      <img src="krishna pic1.1.jpg" class="krish">
+      </div>
+     <div class="contentt">
+      <h4 class="hi"> HI THERE I'M</h4>  <br>
+      <h2 class="hello"> KRISHNA SRINIVASAN</h2>
+     <h1 id="bot"> I'm a  Passionate <span class="auto-type">  </span> </h1>       
+    <h3 id="bot1"> Creating Interactive Application and Experience on Web Development </h3>
+      </div>  
+      <div class="frog">
+     <button class="ress" onclick="scrollToResume()">Resume</button>
+     </div>
+     <div class="bulb">
+    <button class="light"> <i class="fa-regular fa-lightbulb"></i> </button>
+     </div>
+    <div class="emoji"> 
+    <div class="piccc"> <img src="image (2).png" class="graph1"> </img> </div>
+    <div class="piccc"> <img src="edu.png" class="graph7"> </img> </div>
+    <div class="piccc"> <img src="skills.png"  class="graph9"> </img> </div>
+    </div>
+    <div class="apple"> <h2> Portfolio page !!! </h2> </div>
+   </div>
+</div> 
+
+
+  <div id="props">
+  <div class ="two">
+          <u> <h2> Project Page</h2> </u>
+    <div class="project">
+        <div class="projects">
+              <div class="project1"> 
+                 A fully responsive Swiggy clone built with HTML, CSS, and vanilla JavaScript. 
+                It  features a high-fidelity, interactive UI that perfectly mirrors the core 
+                food-delivery browsing experience across all devices.
+                 <button> Done </button>
+              </div>
+               
+              <div class="project2"> 
+                A dynamic, responsive web experience showcasing advanced CSS animations. 
+                By leveraging complex @keyframes and JavaScript logic, I created a fluid, 
+                visually engaging interface that responds to user navigation. 
+                 <button> Done </button>
+              </div>
+            
+              <div class="project3"> 
+                A sleek, intuitive Movie Diary application designed for tracking and exploring films. 
+                Built entirely with HTML, CSS, and JavaScript, it offers a clean, responsive 
+                interface for a seamless personal media-tracking experience.
+                <button> Done </button>
+              </div>
+              
+        </div>
+     </div>
+            <div class="title">
+              <b> <u> <h1> Resume </h1> </u> </b>
+            </div>
+        <div class="picc">
+          <div class="picc" id="resume"></div>
+          <img src="resume.jpg" alt="" id="img">
+        </div>
+      <div class="piccc"> <img src="project.png" class="graph2"> </img> </div>
+      <div class="applee"> <h2> Project Page!!! </h2> </div>
+  </div>         
+</div>    
+
+
+ <div id="cake">
+  <div class="threeo">
+  <h1 class="pick"> <u> The Certificate I Have Obtained  </u></h1>
+  <div class="certificate">
+          <div class="cer1" >
+            <img src="cer1.jpg" alt="" id="cer11">
+          </div>
+          <div class="cer2">
+            <img src="dataanalytics.jpg" alt="" id="cer12">
+          </div>
+          <div class="cer3">
+          <img src="deep.jpg" alt="" id="cer13">
+        </div>
+        <div class="cer4">
+          <img src="py.jpg" alt="" id="cer14">
+        </div>
+        <div class="cer5">
+          <img src="ai.jpg" alt="" id="cer15">
+        </div>
+  </div>       
+</div>
+
+<div id="scale">
+ <div class="three-t">
+      <h1> Skills </h1>
+ <div class="skill">
+     <div class="skills-11">
+      <div class="skills-1"> Java(Jsp,JDBC,SpringBoot,OOPS) </div>
+     </div>   
+     <div class="skills-12">
+      <div class="skills-2"> Python(Basic Concepts) </div>
+     </div>  
+    <div class="skills-13"> 
+      <div class="skills-3"> C++(OOPS) </div>
+    </div>     
+    <div class="skills-14"> 
+      <div class="skills-4"> DSA(Basic Concepts)</div>
+    </div>      
+    <div class="skills-15">
+      <div class="skills-5"> SQL(MySQL,PhP MyAdmin,MangoDB) </div>
+    </div>  
+   <div class="skills-16">     
+      <div class="skills-6"> JavaScript(Basic Concepts) </div>
+   </div>    
+ </div>
+    <div class="piccc"> <img src="skills.png"  class="graph4"> </img> </div>
+    <div class="appleee"> <h2> Skills page!!!  </h2> </div>
+ </div>
+</div> 
+
+<div id="eduuu">
+  <div class="edu">
+      <h1> Education </h1>
+         <div class="eduu">
+          <div class="edu1"> <h2> Bachelor of <span class="cation"> Computer Application, </span></h2></div>
+          <div class="edu2"> <a href="https://www.pmu.edu/"> <h2> PMIST </h2> </a></div>
+          <p> August 2022 - May 2025 </p>
+        </div>
+         <div class="graph"> <img src="edu.png" class="graph5"> </img> </div>
+         <div class="appleeee"> <h2> Education page!!! </h2> </div>
+  </div>  
+</div>
+
+
+<!--<div id="conn">
+   <div class="three">
+    <form method="get">  
+    <h1> Welcome To Contact Page  </h1>
+        <div class="detail">
+          <div class="detail-sub">
+            <h3 class="con"> Contact Us </h3>
+            <h4 class="name"> Name</h4>
+            <input type="text" class="one-big" required autofocus>
+            <h4 class="email"> Email</h4>
+            <input type= "email" class="two-big" required autofocu>
+            <h4 class="message"> Message</h4>
+            <input type="text" class="big" required autofocu>
+     </form>
+        </div>
+      </div>
+        <div class="button">
+            <button name="btnsubmit" class="sub"> Submit </button>
+        </div>
+        <div class="last">
+            <h1 class="me">Contact Me</h1>
+            <p class="like"> Feel free to reach out me for any  </p>
+            <p class="like1"> projects and job opportunities. </p>
+            <p class="tel"> Phone: <a href="tel:8778976285">+91 8778976285</a></p>
+            <p class="em"> Email: <a href="mailto: skrishna25122004@gmail.com"> skrishna25122004@gmail.com </a> </p>
+        </div>
+        <div class="piccc"> <img src="contact.png" class="graph6"> </img> </div>
+        <div class="appleeeee"> <h2> Contact Page!!! </h2> </div>
+        <footer class="foot"> 
+            <div class="foot-content">
+          <a href="https://www.appstore.com"> <i class="fa-brands fa-android" id="android"> </i> </a>     
+          <a href="github.com">  <i class="fa-brands fa-github" id="github"> </i> </a> 
+          <a href="https://www.appstore.com ">  <i class="fa-brands fa-apple" id="apple"> </i> </a>     
+           <a href="https://www.instagram.com/mr.__.cool.__.krish?igsh=MWkxNzc4cThicnViMw==">  <i class="fa-brands fa-instagram" id="insta"> </i> </a>  
+            <a href="https://twitter.com/krish_cool08">  <i class="fa-brands fa-twitter" id="twitter"> </i> </a>  
+             <a href="https://youtube.com/@krishmedia4308"> <i class="fa-brands fa-youtube" id="youtube"> </i>  </a> 
+              <a href="https://www.facebook.com/thilagavathy.thilagavathy.14289?mibextid=ZbwkwL "> <i class="fa-brands fa-facebook" id="facebook"> </i> </a> 
+            </div>
+           </footer>
+   </div>
+  </div>-->
+
+<!-- <div id="contact">
+  <div class="con"> Contact Page </div>
+  <div class="container">
+    <div class="content">
+      <div class="left-side">
+        <div class="address details">
+          <i class="fas fa-map-marker-alt"></i>
+          <div class="topic">Address</div>
+          <div class="text-one"> Sengamettu street, 609001</div>
+          <div class="text-two">Mayiladuthurai</div>
+        </div>
+        <div class="phone details">
+          <i class="fas fa-phone-alt"></i>
+          <div class="topic">Phone</div>
+          <div class="text-one">+91 8778976285</div>
+          <div class="text-two">+91 9098388383</div>
+        </div>
+        <div class="email details">
+          <i class="fas fa-envelope"></i>
+          <div class="topic">Email</div>
+          <div class="text-one">skrishna25122004@gmail.com</div>
+          <div class="text-two">contact me any time!!!</div>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="topic-text">Send us a message</div>
+        <p>If you have any work from me or any types of quries related to my tutorial, you can send me message from here. It's my pleasure to help you.</p>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Enter your name">
+        </div>
+        <div class="input-box">
+          <input type="text" placeholder="Enter your email">
+        </div>
+        <div class="input-box message-box">
+          
+        </div>
+        <div class="button">
+          <input type="button" value="Send Now" >
+        </div>
+      </form>									
+				</div>						
+			</div>
+    </div>
+    </div> -->
+    <div id="contact">
+  <h1 class="contact-title">Contact Me</h1>
+
+  <div class="contact-container">
+    
+    <!-- LEFT -->
+    <div class="contact-left">
+      <h2>Let's Connect</h2>
+      <p>Have a project or opportunity? Reach out.</p>
+
+      <p><strong>📍</strong> Mayiladuthurai</p>
+      <p><strong>📞</strong> +91 8778976285</p>
+      <p><strong>📧</strong> skrishna25122004@gmail.com</p>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="contact-right">
+      <form action="contact.php" method="POST" class="contact-form">
+    <input type="text" name="name" placeholder="Name" class="vibrant-input" required>
+    <input type="email" name="email" placeholder="Email" class="vibrant-input" required>
+    <textarea name="message" placeholder="Message" class="vibrant-input" required></textarea>
+    <button type="submit" class="send-btn">Send Now</button>
+     </form>
+    </div>
+
+  </div>
+</div>
+  </div>
+  </div>
+
+  <div class="footer">
+    <div class="containerr">					
+      <div class="copy-text text-center wow fadeInDown">
+        <p>CopyRight © 2024 KRISHNA | All Rights Reserved</p>
+      </div>		
+</body>
+</html>
